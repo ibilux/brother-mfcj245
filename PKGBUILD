@@ -1,9 +1,3 @@
-# Contributor: Alessio Bianchi <venator85@gmail.com>
-# Contributor: Jacek Roszkowski <j.roszk@gmail.com>
-# Contributor: Javier Cordero <jneight@gmail.com>
-# Contributor: Vieux Grognon <vieux@grognon.net>
-# Maintainer: Vieux Grognon <vieux@grognon.net>
-
 pkgname=brother-mfcj245
 pkgver=3.0.0
 pkgrel=1
@@ -11,7 +5,6 @@ pkgdesc="Driver for the Brother DCP-j245 wifi multifuncional printer"
 url="http://solutions.brother.com/linux/en_us/index.html"
 license=('custom:brother')
 depends=('a2ps' 'cups')
-makedepends=('rpmextract')
 install="brother-mfcj245.install"
 arch=('i686' 'x86_64')
 
